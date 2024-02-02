@@ -11,3 +11,20 @@ In this situation, it was required to elaborate a connection between structured 
 ![datafactory pipeline](https://github.com/anezm12/Azure-Manufactory-Company/assets/101163640/ea7069ce-29bc-437c-b94f-3b46daba138c)
 
 This pipeline counts with four activities including one 'Copy data' activity inside of the 'ForEach'. The connection between SQL Server and Azure Data Factory was made through self-hosted integration runtime. Each activity was connected by a success arrow. To select only the sales tables the lookup activity had a query inside the settings (SQL query available in SQL queries folder).  
+
+
+## Azure Databricks
+
+For databricks I created three notebooks one for all mouthing with each container needed. A second one to perform the first level of transformation, which consists of transforming the date type from "YYYY-MM-DD HH:mm:ss.SSS." to a simpler one “YYYY-MM-DD”. The second one, it was needed to transform all column titles from all tables, ‘ThisIsAnExample’ to ‘This_Is_An_Example’. 
+
+Compute setting:
+
+Summary
+1 Driver
+14 GB Memory, 4 Cores
+Runtime
+13.3.x-scala2.12
+Standard_DS3_v2
+0.75 DBU/h
+
+----- Check the notebooks in Databricks folder -----
