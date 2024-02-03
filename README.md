@@ -31,3 +31,13 @@ Standard_DS3_v2
 
 
 ## Azure Synapse Analytics
+
+![azure-synapse-pipeline](https://github.com/anezm12/Azure-Manufactory-Company/assets/101163640/ea6194ff-480b-4ace-872f-d16d18d82965)
+
+![synapse-pipeline-runconsumption](https://github.com/anezm12/Azure-Manufactory-Company/assets/101163640/d713d6e0-746b-4d85-89fc-1b6769e7dda7)
+
+In the final stage of the project, I utilized Azure Synapse Analytics for the loading process. With Azure Synapse Analytics featuring its own pipeline builder component, I leveraged it to extract metadata and executed a stored procedure within a ForEach activity. This activity is linked to the script run in the development section. Once the pipeline was up and running, all the views were loaded into the workspace and are now ready to be utilized.
+
+----- Check the T-Sql script in SQL folder -----
+
+
