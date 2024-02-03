@@ -41,3 +41,7 @@ In the final stage of the project, I utilized Azure Synapse Analytics for the lo
 ----- Check the T-Sql script in SQL folder -----
 
 
+## Conclusion 
+
+All these services can perform the same activities. This project was implemented using all services to demonstrate the ability and adaptability to work with different tools in the Azure ecosystem. In the initial project flow diagram, Power BI was depicted as the final step. However, this specific task was not executed this time. I recommend that anyone interested in running this project should handle the data analyst duties.
+
