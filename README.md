@@ -15,7 +15,7 @@ This pipeline counts with four activities including one 'Copy data' activity ins
 
 ## Azure Databricks
 
-For databricks I created three notebooks one for all mouting with each container needed. A second one to perform the first level of transformation, which consists of transforming the date type from "YYYY-MM-DD HH:mm:ss.SSS." to a simpler one “YYYY-MM-DD”. The second one, it was needed to transform all column titles from all tables, ‘ThisIsAnExample’ to ‘This_Is_An_Example’. 
+For databricks, I used credential passthrough that allows you to authenticate automatically to Azure Data Lake Storage from Azure Databricks clusters using the identity that you use to log in to Azure Databricks. I created three notebooks. One for all mouting with each container needed. A second one to perform the first level of transformation, which consists of transforming the date type from "YYYY-MM-DD HH:mm:ss.SSS." to a simpler one “YYYY-MM-DD”. The second one, it was needed to transform all column titles from all tables, ‘ThisIsAnExample’ to ‘This_Is_An_Example’. 
 
 Compute setting:
 
@@ -28,3 +28,6 @@ Standard_DS3_v2
 0.75 DBU/h
 
 ----- Check the notebooks in Databricks folder -----
+
+
+## Azure Synapse Analytics
